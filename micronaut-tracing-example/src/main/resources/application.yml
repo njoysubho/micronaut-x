@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: micronaut-tracing-example
+
+tracing.zipkin.enable: true
+tracing.zipkin.smapler.probability: 1
+tracing.zipkin.http.url: http://localhost:9411
